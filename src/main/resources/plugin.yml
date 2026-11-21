@@ -1,0 +1,20 @@
+name: AlphaBuilder
+version: 1.0.0
+main: ru.alphagrief.alphabuilder.AlphaBuilder
+api-version: '1.21'
+author: AlphaGrief
+description: Builder world, structure templates and AI building assistant
+commands:
+  ab:
+    description: AlphaBuilder main command
+    usage: /ab [menu|build|world|ai|admin|confirm|cancel]
+    aliases: [alphabuilder]
+permissions:
+  alphabuilder.use:
+    default: true
+  alphabuilder.build:
+    default: op
+  alphabuilder.admin:
+    default: op
+  alphabuilder.ai:
+    default: true
