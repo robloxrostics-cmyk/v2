@@ -1,0 +1,12 @@
+prefix: '&6AlphaGrief &8» &7'
+settings:
+  language: ru
+  detect-installed-plugins: true
+  log-detected-plugins: true
+modules:
+  worldguard: true
+  worldedit: true
+  essentials: true
+  luckperms: true
+  litebans: true
+  authme: true
