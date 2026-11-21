@@ -1,0 +1,15 @@
+world:
+  name: alphabuilder
+  auto-create: true
+  spawn-x: 0
+  spawn-y: 80
+  spawn-z: 0
+ai:
+  enabled: true
+  endpoint: "https://api.openai.com/v1/chat/completions"
+  model: "gpt-4o-mini"
+  api-key: ""
+  system-prompt: "Ты Alpha AI — помощник строителя Minecraft. Предлагай идеи построек, размеры, материалы и пошаговые планы. Отвечай по-русски."
+  max-tokens: 450
+messages:
+  prefix: "&8[&6AlphaBuilder&8] "
