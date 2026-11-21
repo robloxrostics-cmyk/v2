@@ -1,0 +1,12 @@
+messages:
+  no-permission: '&cУ вас недостаточно прав.'
+  player-only: '&cЭта команда доступна только игроку.'
+  reload: '&aНастройки AlphaMessages перезагружены.'
+  usage: '&7Использование: &f/am <reload|plugins|editor|version>'
+  version: '&7Версия AlphaMessages: &f%version%'
+  detected-header: '&6Обнаруженные плагины:'
+  detected-entry: '&8• &7%plugin% &8— %status%'
+  detected-enabled: '&aнайден'
+  detected-missing: '&cне найден'
+  editor-title: '&6AlphaMessages'
+  unknown: '&cНеизвестная подкоманда. Используйте /am.'
