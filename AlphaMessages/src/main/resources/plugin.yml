@@ -1,0 +1,12 @@
+name: AlphaMessages
+version: 1.0.0
+main: ru.alphagrief.alphamessages.AlphaMessages
+api-version: '1.21'
+softdepend: [WorldGuard, WorldEdit, WGExtender, Essentials, LuckPerms, LiteBans, AtomBans, AuthMe, ProtocolLib, PlaceholderAPI]
+commands:
+  am:
+    description: Управление AlphaMessages
+    usage: /am [reload|plugins|editor|version]
+permissions:
+  alphamessages.admin:
+    default: op
